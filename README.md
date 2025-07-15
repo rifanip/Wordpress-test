@@ -6,8 +6,8 @@ This repository contains manual test cases and Cypress automation for testing th
 
 ## 🔍 What’s Included
 
-- Manual test cases written in Gherkin format (`.feature` file)
-- Cypress automation scripts based on those test cases
+- Manual test cases for Wholesale Price
+- Cypress automation scripts
 - All tests focus on validating how wholesale pricing is displayed and triggered
 
 ---
