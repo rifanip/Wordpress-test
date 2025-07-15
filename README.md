@@ -16,5 +16,3 @@ This repository contains manual test cases and Cypress automation for testing th
 
 - Wholesale price shown only for eligible users (e.g., wholesale customers)
 - Price display on product and cart pages
-- Correct calculation based on rules (e.g., user type or quantity)
-- Fallback to regular price when conditions are not met
