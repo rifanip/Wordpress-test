@@ -1,0 +1,52 @@
+# Test Cases: Wholesale Prices – WooCommerce Plugin
+
+### TC-WP-001: Display Wholesale Price to Wholesale Customer
+
+- **Preconditions**:
+  - Wholesale Prices plugin is active
+  - Product has regular, sale, and wholesale prices
+  - Wholesale Customer user exists
+
+- **Steps**:
+  1. Log in as a wholesale customer
+  2. Navigate to the product page
+
+- **Expected Result**:
+  - Wholesale price is displayed
+  - Regular/sale price displays as a crossed-out price
+
+---
+
+### TC-WP-002: Cart Should Reflect Wholesale Price
+
+- **Steps**:
+  1. Log in as a wholesale customer
+  2. Add the product to the cart
+  3. Navigate to the cart page
+
+- **Expected Result**:
+  - Cart displays the wholesale price
+  - Total price reflects wholesale pricing
+
+---
+
+### TC-WP-003: Non-Wholesale Users See Regular/Sale Price
+
+- **Steps**:
+  1. log in as a regular user
+  2. Open the product page
+
+- **Expected Result**:
+  - Regular or sale price is shown
+  - Wholesale price is not visible
+
+---
+
+### TC-WP-004: Wholesale Price on Shop Page
+
+- **Steps**:
+  1. Log in as a wholesale customer
+  2. Open shop page
+
+- **Expected Result**:
+  - Each product shows the wholesale price
