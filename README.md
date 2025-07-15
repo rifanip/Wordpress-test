@@ -1,4 +1,3 @@
-# Wordpress-test
 # Wholesale Price Test Automation
 
 This repository contains manual test cases and Cypress automation for testing the **Wholesale Price functionality**
